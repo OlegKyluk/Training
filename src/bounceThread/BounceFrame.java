@@ -8,7 +8,7 @@ public class BounceFrame extends JFrame {
 
     private BallComponent comp;
     public static final int STEPS = 10000;
-    public static final int DELAY = 3;
+    public static final int DELAY = 7;
 
     public BounceFrame() {
         comp = new BallComponent();
