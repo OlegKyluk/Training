@@ -32,7 +32,7 @@ public class BlockingQTest {
             };
 
             new Thread(enumerator).start();
-            ;
+            
             for (int i = 1; i <= SEARCH_THREADS; i++) {
                 Runnable searcher = () -> {
                     try {
